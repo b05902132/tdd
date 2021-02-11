@@ -5,7 +5,7 @@ Provisioning a new site
 
 * nginx
 * Python 3.8
-* virtualenv + pip
+* poetry
 * Git
 
 eg, on Ubuntu:

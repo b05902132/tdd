@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tdd"
+version = "0.1.0"
+description = ""
+authors = ["b05902132 <b05902132@csie.ntu.edu.tw>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.5"
+Django = "1.11.29"
+gunicorn = "20.0.4"
+
+[tool.poetry.dev-dependencies]
+Fabric3 = "^1.14.post1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
